@@ -33,6 +33,7 @@ class WxRpc {
     }
 
     public static function send($method, $uri, $params) {
+        self::getBase();
         $url = self::getUrl($uri);
         $params = self::getParams($params);
         $response = self::$client->request($method, $url, $params);
