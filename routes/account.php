@@ -6,7 +6,7 @@
  * Time: 下午12:43
  */
 //登录
-$app->post('/api/login', ['middleware' => ['form:AccountFormRequest'], 'uses' => "AccountController@login"]);
+$app->post('/api/login', ['uses' => "AccountController@login"]);
 $app->get('/api/loginOut', ['middleware' =>['uses' => "AccountController@loginOut"]]);
 
 $app->get('/api/account/address/lists', ['middleware' => ['auth'], 'uses' => "AccountController@addressList"]);
