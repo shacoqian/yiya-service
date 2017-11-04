@@ -17,6 +17,7 @@ class WxRpc {
     private static $grant_type = 'authorization_code';
 
     public static function getBase() {
+        var_dump(config('app.wx_base_url'));exit;
         self::$client = Rpc::getInstance();
         self::$base_url = config('app.wx_base_url');
         self::$app_id = config('app.wx_app_id');
