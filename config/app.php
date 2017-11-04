@@ -40,4 +40,10 @@ return [
     */
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
+
+    //微信配置相关
+    'wx_base_url' => env('WX_BASE_URL', 'https://api.weixin.qq.com'),
+    'wx_app_id' => env('WX_APP_ID', 'wx9eecbc36d24e310e'),
+    'wx_app_secret' => env('WX_APP_SECRET', '0f5e7ab69dc9ff5542a30790416fea33')
+
 ];
