@@ -7,5 +7,5 @@
  */
 
 //登录
-$app->post('/api/login', ['uses' => "AccountController@login"]);
+$app->get('/api/login', ['uses' => "AccountController@login"]);
 
