@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b49068-54ff-489a-ad0e-6d8acb1f2563" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cert/214322634380927.key" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/cert/214322634380927.pem" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CartController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ClassController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CompanyController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/ExpressController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/OrderController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/SwaggerController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/UploadController.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CartModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CompanyModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CustomerFinanceModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CustomerInfoModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CustomerModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/CustomerReapAddressList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/ExpressCompanyModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/ExpressInfoModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/FinanceBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsClassModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsImageModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsStandardModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsStoreOrderDetailModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsStoreOrderModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsStoreSettingModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/GoodsUnitModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/MenusModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderCollectionModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderDeliverModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderGoodsModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderPayInfoViewModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/OrderRecordModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/PermissionModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/RegionModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/RoleModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/StoreModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/SystemStoreModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/VersionModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/cart.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/company.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/goods.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/order.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/account.php" afterPath="$PROJECT_DIR$/routes/account.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
@@ -97,7 +48,17 @@
         <entry file="file://$PROJECT_DIR$/routes/account.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -182,24 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiya-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yiya-service" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cert" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +244,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Controllers" />
       <recent name="$PROJECT_DIR$/public/cert" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -390,18 +334,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509701019383</updated>
-      <workItem from="1509701021241" duration="3125000" />
+      <workItem from="1509701021241" duration="4124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3125000" />
+    <option name="totallyTimeSpent" value="4124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1396" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -455,14 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/cert/214322634380927.key">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -475,6 +410,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
