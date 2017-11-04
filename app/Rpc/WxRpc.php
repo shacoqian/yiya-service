@@ -45,6 +45,7 @@ class WxRpc {
     }
 
     public static function getUrl($uri) {
+        echo self::$base_url;exit;
         return self::$base_url . $uri;
     }
 
