@@ -17,11 +17,10 @@ class WxRpc {
     private static $grant_type = 'authorization_code';
 
     public static function getBase() {
-        var_dump(config('app.wx_base_url'));exit;
         self::$client = Rpc::getInstance();
-        self::$base_url = config('app.wx_base_url');
-        self::$app_id = config('app.wx_app_id');
-        self::$app_secret = config('app.wx_secret');
+        self::$base_url = env('WX_BASE_URL');
+        self::$app_id = env('WX_APP_ID');
+        self::$app_secret = env('WX_APP_SECRET');
     }
 
 
