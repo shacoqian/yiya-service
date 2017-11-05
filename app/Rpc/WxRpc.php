@@ -36,9 +36,8 @@ class WxRpc {
         self::getBase();
         $url = self::getUrl($uri);
         $params = self::getParams($params);
-        var_dump($params);exit;
+//        var_dump($params);exit;
         $response = self::$client->request($method, $url, $params);
-//        var_dump($response);exit;
         if ($response->getStatusCode() == 200) {
             return json_decode($response->getBody(),true);
         } else {
