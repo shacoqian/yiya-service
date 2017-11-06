@@ -25,6 +25,7 @@ use App\Util\UserUtil;
 
 use App\Rpc\WxRpc;
 
+
 class AccountController extends Controller {
 
     /**
@@ -40,6 +41,9 @@ class AccountController extends Controller {
         $res = WxRpc::get('/sns/jscode2session', [
             'js_code' => $code
         ]);
+
+        Redis::set('a', '123456');
+        Redis::expire('a', time() + 3600);
 
         var_dump($code);
         var_dump($res);
