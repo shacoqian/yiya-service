@@ -119,7 +119,6 @@ class Client implements ClientInterface
             $this->invalidBody();
         }
         $request = new Psr7\Request($method, $uri, $headers, $body, $version);
-        var_dump($options);exit;
         // Remove the option so that they are not doubly-applied.
         unset($options['headers'], $options['body'], $options['version']);
 
