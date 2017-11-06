@@ -11,11 +11,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
-use App\Models\AccountModel;
-use App\Models\CustomerReapAddressList;
-use App\Models\CustomerModel;
-use App\Models\CompanyModel;
-use App\Util\UserUtil;
+use App\Models\UsersModel;
 
 /**
  * 用户相关API
@@ -41,12 +37,24 @@ class AccountController extends Controller {
         $res = WxRpc::get('/sns/jscode2session', [
             'js_code' => $code
         ]);
+        if (! empty($res)) {
+            //查询数据库 新增或者修改
+            UsersModel::setWxKeyInfo($res['app_id'], $res['session_key']);
+            //存入redis
+            $redisKey = md5($res['app_id']);
+            Redis::set($redisKey, json_encode([
+                'app_id' => $res['app_id'],
+                'session_key' => $res['session_key']
+            ]));
+            return $this->success(['token' => $redisKey], '登录成功');
+        } else {
+            return $this->fail([], '登录失败！');
+        }
 
-        Redis::set('a', '123456');
-        Redis::expire('a', time() + 3600);
 
-        var_dump($code);
-        var_dump($res);
+        //Redis::set('a', '123456');
+        //Redis::expire('a', time() + 3600);
+
     }
 
 
