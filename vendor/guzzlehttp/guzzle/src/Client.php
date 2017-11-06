@@ -115,6 +115,7 @@ class Client implements ClientInterface
         $version = isset($options['version']) ? $options['version'] : '1.1';
         // Merge the URI into the base URI.
         $uri = $this->buildUri($uri, $options);
+        var_dump($uri);exit;
         if (is_array($body)) {
             $this->invalidBody();
         }
