@@ -37,11 +37,12 @@ class AccountController extends Controller {
         $res = WxRpc::get('/sns/jscode2session', [
             'js_code' => $code
         ]);
+        var_dump($res);
         if (! empty($res)) {
             //查询数据库 新增或者修改
-            UsersModel::setWxKeyInfo($res['appid'], $res['session_key']);
+            UsersModel::setWxKeyInfo($res['openid'], $res['session_key']);
             //存入redis
-            $redisKey = md5($res['app_id']);
+            $redisKey = md5($res['openid']);
             Redis::set($redisKey, json_encode([
                 'app_id' => $res['app_id'],
                 'session_key' => $res['session_key']
