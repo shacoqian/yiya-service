@@ -19,7 +19,7 @@ class UsersModel extends Model {
     public static function setWxKeyInfo($open_id, $session_key) {
         $userInfo = self::getUserInfo($open_id);
         if ($userInfo) {
-            self::updateUser(['open_id' => $open_id])->update(['session_key' => $session_key]);
+            self::updateUser(['open_id' => $open_id], ['session_key' => $session_key]);
         } else {
             self::insert([
                 'open_id' => $open_id,
