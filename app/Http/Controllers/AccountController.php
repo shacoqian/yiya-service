@@ -39,7 +39,7 @@ class AccountController extends Controller {
         ]);
         if (! empty($res)) {
             //查询数据库 新增或者修改
-            UsersModel::setWxKeyInfo($res['app_id'], $res['session_key']);
+            UsersModel::setWxKeyInfo($res['appid'], $res['session_key']);
             //存入redis
             $redisKey = md5($res['app_id']);
             Redis::set($redisKey, json_encode([
