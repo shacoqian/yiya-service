@@ -21,7 +21,7 @@ class UsersModel extends Model {
         if ($userInfo) {
             self::updateUser(['open_id' => $open_id], ['session_key' => $session_key]);
         } else {
-            self::insert([
+            self::save([
                 'open_id' => $open_id,
                 'session_key' => $session_key
             ]);
