@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64b49068-54ff-489a-ad0e-6d8acb1f2563" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/UsersModel.php" afterPath="$PROJECT_DIR$/app/Models/UsersModel.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersModel.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UsersModel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Models/UsersModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
                 <element signature="e#115#154#0#PHP" expanded="true" />
@@ -39,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
@@ -125,9 +125,9 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" />
         <option value="$PROJECT_DIR$/app/Rpc/WxRpc.php" />
-        <option value="$PROJECT_DIR$/app/Models/UsersModel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Models/UsersModel.php" />
       </list>
     </option>
   </component>
@@ -430,12 +430,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509701019383</updated>
       <workItem from="1509701021241" duration="9849000" />
-      <workItem from="1509956419598" duration="4841000" />
+      <workItem from="1509956419598" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="14821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -768,17 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/UsersModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-            <element signature="e#115#154#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -794,6 +783,17 @@
         <state relative-caret-position="576">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/UsersModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+            <element signature="e#115#154#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
