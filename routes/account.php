@@ -9,3 +9,5 @@
 //登录
 $app->get('/api/login', ['uses' => "AccountController@login"]);
 
+$app->post('/api/setUserInfo', ['uses' => "AccountController@setUserInfo"]);
+

@@ -38,7 +38,6 @@ class AccountController extends Controller {
             'js_code' => $code
         ]);
         if (! empty($res)) {
-//            var_dump($res);exit;
             //查询数据库 新增或者修改
             UsersModel::setWxKeyInfo($res['openid'], $res['session_key']);
             //存入redis
@@ -51,11 +50,10 @@ class AccountController extends Controller {
         } else {
             return $this->fail([], '登录失败！');
         }
+    }
 
-
-        //Redis::set('a', '123456');
-        //Redis::expire('a', time() + 3600);
-
+    public function setUserInfo(Request $request) {
+        var_dump($_POST);exit;
     }
 
 
