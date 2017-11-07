@@ -53,7 +53,7 @@ class AccountController extends Controller {
     }
 
     public function setUserInfo(Request $request) {
-        var_dump($_POST);exit;
+        var_dump($request->input());
     }
 
 
