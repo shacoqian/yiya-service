@@ -38,7 +38,7 @@ class AccountController extends Controller {
             'js_code' => $code
         ]);
         if (! empty($res)) {
-            var_dump($res);exit;
+//            var_dump($res);exit;
             //查询数据库 新增或者修改
             UsersModel::setWxKeyInfo($res['openid'], $res['session_key']);
             //存入redis
