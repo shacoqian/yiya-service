@@ -15,6 +15,13 @@ class UsersModel extends Model {
 
     protected $table = 'users';
 
+    protected $fillable = [
+        'open_id',
+        'session_key',
+        'created_at',
+        'updated_at',
+    ];
+
     //设置 open_id和session_key
     public static function setWxKeyInfo($open_id, $session_key) {
         $userInfo = self::getUserInfo($open_id);
