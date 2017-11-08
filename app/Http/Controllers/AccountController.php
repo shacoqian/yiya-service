@@ -54,11 +54,10 @@ class AccountController extends Controller {
     }
 
     public function setUserInfo(Request $request) {
-        var_dump(UserUtil::getUser());
-        exit;
+        $open_id = UserUtil::getAppId();
         $data = $request->only('nickName', 'gender', 'avatarUrl', 'country' ,'province');
-        //UsersModel::
-
+        UsersModel::where(['open_id' => $open_id])->update($data);
+        return $this->success();
     }
 
 
