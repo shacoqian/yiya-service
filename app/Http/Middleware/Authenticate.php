@@ -36,7 +36,7 @@ class Authenticate
     public function handle($request, Closure $next, $guard = null)
     {
         if (!$this->auth->user()) {
-            return response()->json(['status'=> -1,'message'=>'未登录']);
+            return response()->json(['status'=> -99,'message'=>'未登录']);
         }
 //        return $next($request);
 //        if ($this->auth->guard($guard)->guest()) {

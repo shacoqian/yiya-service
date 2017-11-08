@@ -9,5 +9,5 @@
 //登录
 $app->get('/api/login', ['uses' => "AccountController@login"]);
 
-$app->post('/api/setUserInfo', ['uses' => "AccountController@setUserInfo"]);
+$app->post('/api/setUserInfo', ['middleware' => ['auth'], 'uses' => "AccountController@setUserInfo"]);
 

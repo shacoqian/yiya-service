@@ -12,6 +12,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
 use App\Models\UsersModel;
+use App\Util\UserUtil;
 
 /**
  * 用户相关API
@@ -53,7 +54,11 @@ class AccountController extends Controller {
     }
 
     public function setUserInfo(Request $request) {
-        var_dump($request->input('nickName'));
+        var_dump(UserUtil::getUser());
+        exit;
+        $data = $request->only('nickName', 'gender', 'avatarUrl', 'country' ,'province');
+        //UsersModel::
+
     }
 
 

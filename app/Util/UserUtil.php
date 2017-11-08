@@ -24,29 +24,13 @@ class UserUtil
     return self::$user;
   }
 
-  public static function getAccountId()
+  public static function getAppId()
   {
-    return self::getUser()['account_id'];
+    return self::getUser()['app_id'];
   }
 
-  public static function getCompanyId()
+  public static function getSessionKey()
   {
-    return self::getUser()['company_id'];
+    return self::getUser()['session_key'];
   }
-
-  public static function getRoleId()
-  {
-    return explode(',', self::getUser()['role_ids']);
-  }
-
-  public static function getParentAccountId()
-  {
-    return self::getUser()['parent_account_id'];
-  }
-
-  public static function getParentAccountIdLevel()
-  {
-    return self::getParentAccountId() . '-' . self::getAccountId();
-  }
-
 }

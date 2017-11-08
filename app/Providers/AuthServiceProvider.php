@@ -37,11 +37,8 @@ class AuthServiceProvider extends ServiceProvider
                 $info = Redis::get($token);
                 if ($info) {
                     $info = json_decode($info, true);
-                    if ($info['account_type'] != 3) {
-                        return false;
-                    }
                     //延长过期时间
-                    Redis::expire($token, time() + 3600);
+                    Redis::expire($token, time() + 7200);
                     return $info;
                 }
                 return false;
