@@ -47,7 +47,7 @@ class AccountController extends Controller {
                 'open_id' => $res['openid'],
                 'session_key' => $res['session_key']
             ]));
-            
+
             return $this->success(['token' => $redisKey], '登录成功');
         } else {
             return $this->fail([], '登录失败！');
@@ -56,7 +56,7 @@ class AccountController extends Controller {
 
     public function setUserInfo(Request $request) {
         $open_id = UserUtil::getOpenId();
-        $data = $request->only('nickName', 'gender', 'avatarUrl', 'country' ,'province');
+        $data = $request->only('nickName', 'gender', 'avatarUrl', 'country' ,'province', 'city');
         UsersModel::where(['open_id' => $open_id])->update($data);
         return $this->success();
     }
