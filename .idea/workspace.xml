@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="64b49068-54ff-489a-ad0e-6d8acb1f2563" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Util/UserUtil.php" afterPath="$PROJECT_DIR$/app/Util/UserUtil.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="372">
+              <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
               <folding>
                 <element signature="e#126#163#0#PHP" expanded="true" />
               </folding>
@@ -462,12 +461,12 @@
       <option name="presentableId" value="Default" />
       <updated>1509701019383</updated>
       <workItem from="1509701021241" duration="9849000" />
-      <workItem from="1509956419598" duration="7801000" />
+      <workItem from="1509956419598" duration="8128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17650000" />
+    <option name="totallyTimeSpent" value="17977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -837,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AccountController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="372">
+          <caret line="49" column="12" lean-forward="false" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
           <folding>
             <element signature="e#126#163#0#PHP" expanded="true" />
           </folding>

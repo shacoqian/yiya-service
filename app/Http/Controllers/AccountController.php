@@ -47,6 +47,7 @@ class AccountController extends Controller {
                 'open_id' => $res['openid'],
                 'session_key' => $res['session_key']
             ]));
+            
             return $this->success(['token' => $redisKey], '登录成功');
         } else {
             return $this->fail([], '登录失败！');
