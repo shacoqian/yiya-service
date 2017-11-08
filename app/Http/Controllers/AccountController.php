@@ -54,7 +54,7 @@ class AccountController extends Controller {
     }
 
     public function setUserInfo(Request $request) {
-        $open_id = UserUtil::getAppId();
+        $open_id = UserUtil::getOpenId();
         $data = $request->only('nickName', 'gender', 'avatarUrl', 'country' ,'province');
         UsersModel::where(['open_id' => $open_id])->update($data);
         return $this->success();

@@ -24,9 +24,9 @@ class UserUtil
     return self::$user;
   }
 
-  public static function getAppId()
+  public static function getOpenId()
   {
-    return self::getUser()['app_id'];
+    return self::getUser()['open_id'];
   }
 
   public static function getSessionKey()
